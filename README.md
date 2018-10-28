@@ -16,11 +16,11 @@
 
 ## Summary
 
-Hal is an assistant that informs and notifies you about rocket launches, help you with your space questions and also capable of creating art!
+Hal is an assistant that **informs** and **notifies** you about rocket launches, help you with your **space questions** and also capable of **creating art**!
 
-If there is something he does not know, do not worry, he learn fast.
+If there is something he does not know, do not worry, he **learn** fast.
 
-With an self-scalable architecture, that allows him to scale up when there is a lot of demand so he can provide the best service and scale down when not so he can save resources and infrastructure cost, this is essential in any global and a sustainable solution.
+With an **self-scalable architecture**, that allows him to scale up when there is a lot of demand so he can provide the best service and scale down when not so he can save resources and infrastructure cost, this is essential in any **global** and a **sustainable** solution.
 
 ## Hal
 
@@ -36,7 +36,7 @@ We neither, so we call him Hal.
 
 Let's see first its chatbot function.
 
-The first time we talk with him we will make a brief questionnaire to better fit our preferences. This configuration can be changed whenever you want, simply by saying "change configuration". This is one of the best features of Hal. He does not need to say a specific phrase, but offers us an interaction as if it was a person, we could say "set settings" and also understand us.
+The first time we talk with him we will make a brief questionnaire to better fit our preferences. This configuration can be changed whenever you want, simply by saying "change configuration". This is one of the best features of Hal. He does not need to say a specific phrase, but offers us an **interaction as if it was a person**, we could say "set settings" and also **understand us**.
 
 In case he does not understand you, because you have used very different words, Hal will respond "I did not understand that" (Fallback intent) and the developers will see this phrase, so he can be trained and the next time he will understand you.
 
@@ -62,11 +62,11 @@ We invite you to try these features.
 
 But why we say that Hal is more than a chatbot, that it is an assistant?
 
-Well, we can ask questions to Hal. But also he will be waiting for us. Without talking to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
+Well, we can ask questions to Hal. But also **he will be waiting for us**. Without talking to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
 
 ##### Inspire
 
-The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', creating art and to inspire others. We are many who love the pictures of the libraries of NASA, so much that we put them on wallpaper. Well, better if those photos had a personal touch.
+The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', **creating art and to inspire others**. We are many who love the pictures of the libraries of NASA, so much that we put them on wallpaper. Well, better if those photos had a **personal touch**.
 
 For this, we will tell Hal that we need inspiration or that he create for us a piece of art. He will ask us for a photo and a space style, which has to do with photos from the libraries of NASA.
 
@@ -81,7 +81,7 @@ Let's see some examples:
 
 ##### Architecture
 
-At the time of designing Hal, we have always kept in mind that it must be capable of being implemented at a global scale and be sustainable in the future.
+At the time of designing Hal, we have always kept in mind that it must be capable of being implemented at a **global scale** and **be sustainable in the future**.
 
 Architecture scheme:
 
@@ -89,28 +89,28 @@ Architecture scheme:
 
 
 The core of the chatbot is in Dialogflow. We have chosen this platform for these reasons mainly:
-* Easy deploy on more than 9 platforms
-* Support for multiple languages
+* Easy deploy on **more than 9 platforms**
+* Support for **multiple languages**
 * Simple integration with other Google services
-* Effective NPL (Natural Language Processing) recognition of intents and parameters
+* **Effective NPL** (Natural Language Processing) recognition of intents and parameters
 
 But as we have seen, not everything is question and answer, all the data in real time, updates, deepart... it is thanks to the backend.
 
-The fulfillment of the chatbot is the part that is responsible for collecting data in real time, as location of the ISS or access the databases deployed in the new Firebase service, Firestore. This code is written in Javascript and running on Node js, in several servers offered by Google Compuete Engine that have an elastic load balancer to distribute the requests. These servers are in a horizontal autoscaling group, this means that automatically, if the number of requests increase it will create automatically new instances to always offer a quality service without interruptions. If the number of requests decreases, so does the number of instances to save resources and infrastructure cost.
+The fulfillment of the chatbot is the part that is responsible for collecting data in real time, as location of the ISS or access the databases deployed in the new Firebase service, Firestore. This code is written in Javascript and running on Node js, in several servers offered by Google Compuete Engine that have an elastic load balancer to distribute the requests. These servers are in a horizontal **autoscaling** group, this means that automatically, if the number of requests increase it will create automatically new instances to always offer a **quality service without interruptions**. If the number of requests decreases, so does the number of instances to **save resources** and **infrastructure cost**.
 
 Also in Google Compute Engine is a single non-scalable instance responsible for the processing of images with Deepart techniques (Deeplearning), for it has an Nvidia Tesla K80 graphics.
 
 ##### Future
 
-As we have seen the architecture allows the application to be prepared for a global deployment in a sustainable way.
+As we have seen the architecture allows the application to be prepared for a **global deployment in a sustainable way**.
 
-With Dialogflow Hal can understand multiple languages. Currently implemented in English, it will soon be implemented in Spanish and German and in the future it will be implemented in Chinese and Russian.
+With Dialogflow Hal can understand **multiple languages**. Currently implemented in English, it will soon be implemented in Spanish and German and in the future it will be implemented in Chinese and Russian.
 
-Hal is already available on Telegram, very soon it will be available on Facebook messenger, and in the future it will be implemented on Slack, Google assistant, Line, Alexa and Cortana.
+Hal is already available on Telegram, very soon it will be **multi platform**, being available on Facebook messenger, and in the future it will be implemented on Slack, Google assistant, Line, Alexa and Cortana.
 
 We have disable notifications to make some improves, but in the configuration process your chat_id and preferences are stored in users database so when we activate them soon again, they will be automatically ready for you. We are currently developing the API for the deepart feature and we are importing and integrating an astronauts database so soon you can ask for any astronaut in history and get information about him.
 
-We strongly believe in this project because his almost null infrastructure and maintenance costs. Only developers are needed to develop the new features, and later they are available globally, for everyone in a sustainable way.
+We strongly believe in this project because his almost **null infrastructure and maintenance costs**. Only developers are needed to develop the new features, and later they are **available globally, for everyone in a sustainable way**.
 
 ##### Contact
 
