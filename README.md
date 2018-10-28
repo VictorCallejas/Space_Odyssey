@@ -1,17 +1,17 @@
 # Space Odyssey
-<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/New.png?alt=media&token=46bb4532-4210-462e-a6e6-4bc428616dcc" width="300"/>
+<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/New.png?alt=media&token=46bb4532-4210-462e-a6e6-4bc428616dcc" width="500"/>
 
 ## NASA Space Apps 2018
 
-##### Categories and challenges
+#### Categories and challenges
 *  **Can you build a...** Do you know when the next rocket launch is?
 *  **Help others discover the earth** Artify the earth
 
-##### Team
+#### Team
 * **Víctor Callejas Fuentes** Computer science student at the Polytechnic University of Valencia, UPV
 * **Juan Robles Gómez** Aerospace engineering student at the Polytechnic University of Valencia, UPV
 
-##### Video 
+#### Video 
     Link al video
 
 ## Summary
@@ -32,7 +32,7 @@ The reference to HAL9000 also has a meaning, as the evolution in the movie, at f
 
 We neither, so we call him Hal.
 
-##### Chatbot
+#### Chatbot
 
 Let's see first its chatbot function.
 
@@ -58,13 +58,13 @@ Let see some examples of what you can ask Hal now:
 
 We invite you to try these features.
 
-##### Assistant
+#### Assistant
 
 But why we say that Hal is more than a chatbot, that it is an assistant?
 
 Well, we can ask questions to Hal. But also **he will be waiting for us**. Without talking to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
 
-##### Inspire
+#### Inspire
 
 The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', **creating art and to inspire others**. We are many who love the pictures of the libraries of NASA, so much that we put them on wallpaper. Well, better if those photos had a **personal touch**.
 
@@ -79,7 +79,7 @@ Let's see some examples:
 | <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nasa.png?alt=media&token=b331b41d-a10e-49fc-9293-7e67bd20e046" width="500"/> |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/jupiter.jpg?alt=media&token=3617c17a-ac73-4235-a2c3-66ccf67c05b4" width="500"/>   |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nasa_jupiter.jpg?alt=media&token=4f4311e6-fc31-44f8-ab86-b73cfd7c63b4" width="500"/>  |
 | <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logoredspot.jpg?alt=media&token=3e138baa-9339-4f95-bd52-96b558945ba7" width="500"/> |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logosun.jpg?alt=media&token=c54f86a8-e60b-49a9-ad26-4509c181224b" width="500"/>   |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logoastro.jpg?alt=media&token=dc377502-b084-4a50-af26-e2be1fe083e6" width="500"/>  |
 
-##### Architecture
+#### Architecture
 
 At the time of designing Hal, we have always kept in mind that it must be capable of being implemented at a **global scale** and **be sustainable in the future**.
 
@@ -100,7 +100,7 @@ The fulfillment of the chatbot is the part that is responsible for collecting da
 
 Also in Google Compute Engine is a single non-scalable instance responsible for the processing of images with Deepart techniques (Deeplearning), for it has an Nvidia Tesla K80 graphics.
 
-##### Future
+#### Future
 
 As we have seen the architecture allows the application to be prepared for a **global deployment in a sustainable way**.
 
@@ -112,7 +112,7 @@ We have disable notifications to make some improves, but in the configuration pr
 
 We strongly believe in this project because his almost **null infrastructure and maintenance costs**. Only developers are needed to develop the new features, and later they are **available globally, for everyone in a sustainable way**.
 
-##### Contact
+#### Contact
 
 Should you have any further questions, do not hesitate contact us:
 
