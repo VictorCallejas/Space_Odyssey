@@ -9,7 +9,7 @@
 
 #### Team
 * **Víctor Callejas Fuentes** Computer science student at the Polytechnic University of Valencia, UPV
-* **Juan Robles Gómez** Aerospace engineering student at the Polytechnic University of Valencia, UPV
+* **Juan R. Robles Gómez** Aerospace engineering student at the Polytechnic University of Valencia, UPV
 
 #### Video 
     Link al video
@@ -116,4 +116,5 @@ We strongly believe in this project because his almost **null infrastructure and
 
 Should you have any further questions, do not hesitate contact us:
 
-viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes       
+viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes     
+juarobgo@etsid.upv.es        +34 618 50 85 70          www.linkedin.com/in/JuanRRoblesGomez
