@@ -13,8 +13,7 @@
 
 #### Video 
     https://www.youtube.com/watch?v=u9enXB_45Jk
-    [![Space Odyssey](https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/New.png?alt=media&token=46bb4532-4210-462e-a6e6-4bc428616dcc)](https://www.youtube.com/watch?v=u9enXB_45Jk)
-
+    
 ## Summary
 
 Hal is an assistant that **informs** and **notifies** you about rocket launches, help you with your **space questions** and also capable of **creating art**!
