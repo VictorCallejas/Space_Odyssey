@@ -8,10 +8,11 @@
 *  **Help others discover the earth** Artify the earth
 
 ##### Team
-* **Victor Callejas Fuentes** Computer science student at the Polytechnic University of Valencia, UPV
-* **Juan Robles Gómez** Student of aerospace engineering at the Polytechnic University of Valencia, UPV
+* **Víctor Callejas Fuentes** Computer science student at the Polytechnic University of Valencia, UPV
+* **Juan Robles Gómez** Aerospace engineering student at the Polytechnic University of Valencia, UPV
 
-##### Video
+##### Video 
+    Link al video
 
 ## Summary
 
@@ -25,42 +26,49 @@ With an self-scalable architecture, that allows him to scale up when there is a 
 
 In the last decades many companies have appeared in the space sector and the space launches have multiplied so to be aware of all the launches is not easy, hence the concept of space odyssey.
 
-Currently there are many proposals such as websites or apps, but we wanted a solution that would encourage the user to see the launch, that was not the user who has to be pending and looking, but had something that would be proposed and facilitated, so more comfortable and saving time.
+Currently there are many proposals such as websites or apps, but we wanted a solution that would encourage the user to see the launch, that was not the user who has to be pending and searching, instead something that propose and facilitate, so is more comfortable and saves time for the user.
 
-The reference to HAL9000 also has a meaning, and as the evolution in the movie, at first it seems only a chatbot, then you will think that it is an assistant and finally you will not know how to fit it into any specific side.
+The reference to HAL9000 also has a meaning, as the evolution in the movie, at first it seems only a chatbot, then you will think that it is an assistant and finally you will not know where to fit it.
 
-We do not either, so we call him Hal.
+We neither, so we call him Hal.
+
+##### Chatbot
 
 Let's see first its chatbot function.
 
-The first time we talk with him we will make a brief questionnaire to better fit each person. This configuration can be changed whenever you want, simply by saying "change configuration". This is one of the best features of Hal does not need to say a specific phrase, but offers us an interaction as if it were a person, we could say "set settings" and also understand us.
+The first time we talk with him we will make a brief questionnaire to better fit our preferences. This configuration can be changed whenever you want, simply by saying "change configuration". This is one of the best features of Hal. He does not need to say a specific phrase, but offers us an interaction as if it was a person, we could say "set settings" and also understand us.
 
-In case you do not understand why you have used very different words, Hal will respond that you have not understood it (Fallback intent) and the developers will see this phrase so that you will be trained so that next time you understand it, if desired .
+In case he does not understand you, because you have used very different words, Hal will respond "I did not understand that" (Fallback intent) and the developers will see this phrase, so he can be trained and the next time he will understand you.
 
-Users can ask questions for which they have not been programmed to respond, in this case the developers will also see it in a way that they can teach. Let's give an example:
+Users can ask questions for which Hal has not been programmed to respond, in this case the developers will also see it, and they can program to respond that question. Let's give an example:
 
-User: What astronaut has more time in space?
-Hal: I'm sorry I did not understand you, but calm that I learn fast!
+User: What astronaut has been more time in space?
+Hal: I'm sorry I did not understand you, but do not worry I learn fast!
 
-Here the developers can decide if to teach him to answer that question and send a notification to the user with the answer. When any other user asks this question he will know how to answer it.
+Here the developers can decide to teach him answer that question and send a notification to the user with the answer. When any other user asks this question again he will know how to answer it.
 
-The more he interacts with Hal, the better he recognizes the sentences and when new questions are asked he has the opportunity to learn so that he can respond to anyone later.
+The more people interacts with Hal, the better he recognizes the sentences and when new questions are asked he has the opportunity to learn so that he can respond to anyone later.
 
 Let see some examples of what you can ask Hal now:
 
 | <p align="center">Next launches  </p>|<p align="center"> Agencies and companies  </p>   | <p align="center">International Space Station  </p>   |
 | :------------- | :------------- | :------------- |
 | <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nextLaunch.PNG?alt=media&token=1f16e472-f0ad-4fe6-90b4-c68eedcc6f93" width="500"/> |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nasa.PNG?alt=media&token=7b407f5d-a01f-44c5-aaba-d4091b7917d9" width="500"/>   |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/iss.PNG?alt=media&token=52dd831b-947e-4100-9e33-ae15caf3507f" width="500"/>  |
-| We can ask him for the next launch or for the next launch of a specific agency, he will tell us  date, location, agency, summary, image and a link for more information and streaming(if available)| We can ask him for lots of public agencies and private companies, he will answer us with a summary, logo and a link for more information  | We can ask him for the ISS, he will tell us his velocity and altitude and send us a map with his current position. We can track the ISS |
+| We can ask him for the next launch or for the next launch of a specific agency, he will tell us  date, location, agency, summary, image and a link for more information and streaming(if available).| We can ask him for lots of public agencies and private companies, he will answer us with a summary, logo and a link for more information.  | We can ask him for the ISS, he will tell us his velocity and altitude and send us a map with his current position. We can track the ISS. |
 
+We invite you to try these features.
 
-But why we say that Hal is more than a chatbot, that it is an assistant.
+##### Assistant
 
-Well, we can ask questions to Hal but will be him, the one that is waiting for us. No need to talk to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
+But why we say that Hal is more than a chatbot, that it is an assistant?
 
-The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', to create art and to inspire others. We are many who love the photos of the libraries of NASA, so much that we put them on wallpaper. Well, better than those photos had a personal touch.
+Well, we can ask questions to Hal. But also he will be waiting for us. Without talking to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
 
-For this we will tell Hal that we need inspiration or that he believes us a piece of art. He will ask us for a photo and a spatial style, which has to do with photos from the libraries of NASA.
+##### Inspire
+
+The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', creating art and to inspire others. We are many who love the pictures of the libraries of NASA, so much that we put them on wallpaper. Well, better if those photos had a personal touch.
+
+For this, we will tell Hal that we need inspiration or that he create for us a piece of art. He will ask us for a photo and a space style, which has to do with photos from the libraries of NASA.
 
 Let's see some examples:
 
@@ -71,4 +79,41 @@ Let's see some examples:
 | <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nasa.png?alt=media&token=b331b41d-a10e-49fc-9293-7e67bd20e046" width="500"/> |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/jupiter.jpg?alt=media&token=3617c17a-ac73-4235-a2c3-66ccf67c05b4" width="500"/>   |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/nasa_jupiter.jpg?alt=media&token=4f4311e6-fc31-44f8-ab86-b73cfd7c63b4" width="500"/>  |
 | <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logoredspot.jpg?alt=media&token=3e138baa-9339-4f95-bd52-96b558945ba7" width="500"/> |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logosun.jpg?alt=media&token=c54f86a8-e60b-49a9-ad26-4509c181224b" width="500"/>   |<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/logoastro.jpg?alt=media&token=dc377502-b084-4a50-af26-e2be1fe083e6" width="500"/>  |
 
+##### Architecture
 
+At the time of designing Hal, we have always kept in mind that it must be capable of being implemented at a global scale and be sustainable in the future.
+
+Architecture scheme:
+
+<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/arquitectura.png?alt=media&token=2ed21ac7-6e87-4f40-8dec-178d59c9b250" width="1000"/>  
+
+
+The core of the chatbot is in Dialogflow. We have chosen this platform for these reasons mainly:
+* Easy deploy on more than 9 platforms
+* Support for multiple languages
+* Simple integration with other Google services
+* Effective NPL (Natural Language Processing) recognition of intents and parameters
+
+But as we have seen, not everything is question and answer, all the data in real time, updates, deepart... it is thanks to the backend.
+
+The fulfillment of the chatbot is the part that is responsible for collecting data in real time, as location of the ISS or access the databases deployed in the new Firebase service, Firestore. This code is written in Javascript and running on Node js, in several servers offered by Google Compuete Engine that have an elastic load balancer to distribute the requests. These servers are in a horizontal autoscaling group, this means that automatically, if the number of requests increase it will create automatically new instances to always offer a quality service without interruptions. If the number of requests decreases, so does the number of instances to save resources and infrastructure cost.
+
+Also in Google Compute Engine is a single non-scalable instance responsible for the processing of images with Deepart techniques (Deeplearning), for it has an Nvidia Tesla K80 graphics.
+
+##### Future
+
+As we have seen the architecture allows the application to be prepared for a global deployment in a sustainable way.
+
+With Dialogflow Hal can understand multiple languages. Currently implemented in English, it will soon be implemented in Spanish and German and in the future it will be implemented in Chinese and Russian.
+
+Hal is already available on Telegram, very soon it will be available on Facebook messenger, and in the future it will be implemented on Slack, Google assistant, Line, Alexa and Cortana.
+
+We have disable notifications to make some improves, but in the configuration process your chat_id and preferences are stored in users database so when we activate them soon again, they will be automatically ready for you. We are currently developing the API for the deepart feature and we are importing and integrating an astronauts database so soon you can ask for any astronaut in history and get information about him.
+
+We strongly believe in this project because his almost null infrastructure and maintenance costs. Only developers are needed to develop the new features, and later they are available globally, for everyone in a sustainable way.
+
+##### Contact
+
+Should you have any further questions, do not hesitate contact us:
+
+viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes       
