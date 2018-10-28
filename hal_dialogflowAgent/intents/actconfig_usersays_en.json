@@ -1,0 +1,50 @@
+[
+  {
+    "id": "826a9377-a20b-444c-bf97-2859e37264a2",
+    "data": [
+      {
+        "text": "my configuration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540708799
+  },
+  {
+    "id": "54943b73-f296-4bd1-9546-77bb2a345283",
+    "data": [
+      {
+        "text": "actual configuration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540708799
+  },
+  {
+    "id": "1f2b59c5-e3e8-4b97-a8db-94480afea1c6",
+    "data": [
+      {
+        "text": "what is my actual configuration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540708799
+  },
+  {
+    "id": "e30c3312-bddc-44f4-875b-249043d405d1",
+    "data": [
+      {
+        "text": "what is my actual config",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540708799
+  }
+]

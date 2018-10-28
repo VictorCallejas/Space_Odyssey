@@ -1,0 +1,35 @@
+{
+  "id": "ce227731-73a5-4a74-b9e1-2378c2157c60",
+  "parentId": "ef7631b9-0687-4b54-9571-6cb5b134dba5",
+  "rootParentId": "d2d7a33a-e47c-4698-8dee-2ea262c62498",
+  "name": "Greetings - no - no",
+  "auto": true,
+  "contexts": [
+    "Greetings-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings.Greetings-no.Greetings-no-no",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Okay..."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540601580,
+  "fallbackIntent": false,
+  "events": []
+}

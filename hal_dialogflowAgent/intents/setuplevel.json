@@ -1,0 +1,74 @@
+{
+  "id": "735d64f6-4302-4e02-9c98-b358bc127f3b",
+  "name": "setuplevel",
+  "auto": true,
+  "contexts": [
+    "setuplevel"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "updateLevel",
+      "affectedContexts": [
+        {
+          "name": "setupnews",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "e9ca6d4f-db7b-46f0-afb5-0bd4ce1d9a83",
+          "required": false,
+          "dataType": "@level",
+          "name": "level",
+          "value": "$level",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "So, you are $level in space issues, great! How often do you want to receive news?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Never",
+                      "callback_data": "never"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Weekly",
+                      "callback_data": "weekly"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Monthly",
+                      "callback_data": "monthly"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540599086,
+  "fallbackIntent": false,
+  "events": []
+}

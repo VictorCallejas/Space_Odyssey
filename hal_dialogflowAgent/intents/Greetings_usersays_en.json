@@ -1,0 +1,134 @@
+[
+  {
+    "id": "4b84fada-e7e7-4d95-9736-59b2caecde9a",
+    "data": [
+      {
+        "text": "hi there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "ef9d7afc-da43-4b1d-ad2f-1a294d75f822",
+    "data": [
+      {
+        "text": "howdy",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "bbefeaca-fdf3-4486-8860-aa35f5eeb3cd",
+    "data": [
+      {
+        "text": "heya",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "c85b64b0-a93c-4598-87c9-e0bbd78e740a",
+    "data": [
+      {
+        "text": "i greet you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "15ab2d08-71be-41a8-9c59-acc10ead2ad4",
+    "data": [
+      {
+        "text": "hello again",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "03792c41-2981-42b6-9cc4-1bd412792943",
+    "data": [
+      {
+        "text": "hello there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "b6b50025-21eb-4b2b-8e47-b7b78822dde8",
+    "data": [
+      {
+        "text": "hey there",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "fa9eac89-827c-4e21-a1c2-aa73e46a0f92",
+    "data": [
+      {
+        "text": "greetings",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540595681
+  },
+  {
+    "id": "66af3baf-b8e2-41a6-9c2b-66dab41123fd",
+    "data": [
+      {
+        "text": "hey",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540594387
+  },
+  {
+    "id": "27523583-006b-49d2-9c44-e1b560778aa9",
+    "data": [
+      {
+        "text": "hi",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540594387
+  },
+  {
+    "id": "0fd1672c-45d0-4731-938f-cef0e020e9e8",
+    "data": [
+      {
+        "text": "hello",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1540594387
+  }
+]

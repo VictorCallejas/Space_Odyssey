@@ -1,0 +1,86 @@
+{
+  "id": "514910d8-bdcf-41d3-aaed-06cb1e16e9b9",
+  "name": "setupnews",
+  "auto": true,
+  "contexts": [
+    "setupnews"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "updateNews",
+      "affectedContexts": [
+        {
+          "name": "setupremind",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "3e7a740c-ccb1-456f-b453-77a8dad6ff7c",
+          "required": false,
+          "dataType": "@frequency",
+          "name": "newsfreq",
+          "value": "$newsfreq",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "Okay, you will receive news $newsfreq . When do you want to receive launch notifications?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Never",
+                      "callback_data": "never"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "5 min before",
+                      "callback_data": "5min"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "15 min before",
+                      "callback_data": "15min"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "1 hour before",
+                      "callback_data": "1hour"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "1 day before",
+                      "callback_data": "1day"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540601156,
+  "fallbackIntent": false,
+  "events": []
+}

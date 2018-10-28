@@ -1,0 +1,122 @@
+[
+  {
+    "id": "397163ed-d226-4d3c-9f5b-5510c7558878",
+    "data": [
+      {
+        "text": "ethan",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540601470
+  },
+  {
+    "id": "9445299c-cd8f-46a8-a034-d9d0a9bed5b2",
+    "data": [
+      {
+        "text": "hector",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540601470
+  },
+  {
+    "id": "1c322ce9-5770-4689-a52d-551be766ebca",
+    "data": [
+      {
+        "text": "alex",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540601470
+  },
+  {
+    "id": "fcf3aade-2df8-4822-83d8-b6e86a284883",
+    "data": [
+      {
+        "text": "mateo",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540601470
+  },
+  {
+    "id": "ad4fd380-0281-4fe8-af0a-51e191260d69",
+    "data": [
+      {
+        "text": "jaime",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540601470
+  },
+  {
+    "id": "233804a7-b6ae-4605-b6b6-9e3a636f14ed",
+    "data": [
+      {
+        "text": "victor",
+        "alias": "name",
+        "meta": "@name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540473966
+  },
+  {
+    "id": "ab3bcbc3-c0e0-4f85-8dd1-da894e74da56",
+    "data": [
+      {
+        "text": "I am @name:name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1540473966
+  },
+  {
+    "id": "7f412571-c8aa-4652-b54b-ded53b08d3bf",
+    "data": [
+      {
+        "text": "i\u0027m @name:name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1540467296
+  },
+  {
+    "id": "1f25157e-f29c-4f58-9bca-5585e0ac6c70",
+    "data": [
+      {
+        "text": "@name:name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": true,
+    "count": 0,
+    "updated": 1540467296
+  }
+]

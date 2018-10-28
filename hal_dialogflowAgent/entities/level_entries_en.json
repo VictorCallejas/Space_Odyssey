@@ -1,0 +1,20 @@
+[
+  {
+    "value": "rookie",
+    "synonyms": [
+      "rookie"
+    ]
+  },
+  {
+    "value": "amateur",
+    "synonyms": [
+      "amateur"
+    ]
+  },
+  {
+    "value": "expert",
+    "synonyms": [
+      "expert"
+    ]
+  }
+]

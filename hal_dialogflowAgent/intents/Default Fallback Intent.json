@@ -1,0 +1,37 @@
+{
+  "id": "28e049e7-13d5-41a2-83c8-d1579e6798a1",
+  "name": "Default Fallback Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.unknown",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I didn\u0027t get that. Can you say it again?",
+            "I missed what you said. What was that?",
+            "I didn\u0027t get that. Can you repeat?",
+            "Sorry, I\u0027m in development and I didn\u0027t get that, but I\u0027m always learning!",
+            "Sorry, I still don\u0027t understand this, but I will!"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540597510,
+  "fallbackIntent": true,
+  "events": []
+}

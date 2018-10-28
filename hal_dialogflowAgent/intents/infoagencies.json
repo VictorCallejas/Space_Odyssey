@@ -1,0 +1,45 @@
+{
+  "id": "52db96ed-dd82-4756-87a1-3897e39a5e27",
+  "name": "infoagencies",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "1da00043-ee24-4db3-a71e-7a240384d9ff",
+          "required": true,
+          "dataType": "@agencies",
+          "name": "agency",
+          "value": "$agency",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Tell me an agency or company"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540730667,
+  "fallbackIntent": false,
+  "events": []
+}

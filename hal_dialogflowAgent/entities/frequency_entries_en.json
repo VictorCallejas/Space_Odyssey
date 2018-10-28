@@ -1,0 +1,30 @@
+[
+  {
+    "value": "never",
+    "synonyms": [
+      "never",
+      "Never"
+    ]
+  },
+  {
+    "value": "daily",
+    "synonyms": [
+      "daily",
+      "Daily"
+    ]
+  },
+  {
+    "value": "weekly",
+    "synonyms": [
+      "weekly",
+      "Weekly"
+    ]
+  },
+  {
+    "value": "monthly",
+    "synonyms": [
+      "monthly",
+      "Monthly"
+    ]
+  }
+]

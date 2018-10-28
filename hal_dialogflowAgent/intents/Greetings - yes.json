@@ -1,0 +1,35 @@
+{
+  "id": "72048d6c-c20b-4d3f-8bd5-7b612aaa7629",
+  "parentId": "d2d7a33a-e47c-4698-8dee-2ea262c62498",
+  "rootParentId": "d2d7a33a-e47c-4698-8dee-2ea262c62498",
+  "name": "Greetings - yes",
+  "auto": true,
+  "contexts": [
+    "Greetings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings.Greetings-yes",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great! That\u0027s the attitude!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540595754,
+  "fallbackIntent": false,
+  "events": []
+}

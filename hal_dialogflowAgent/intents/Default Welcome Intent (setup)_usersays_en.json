@@ -1,0 +1,38 @@
+[
+  {
+    "id": "e253852d-4273-4f6d-b254-e2af52ffa4ea",
+    "data": [
+      {
+        "text": "configure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2fc1b3b0-d648-496c-a1a3-7808b355fc63",
+    "data": [
+      {
+        "text": "change configuration",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 1540708833
+  },
+  {
+    "id": "3b1f3cf5-1d00-443c-8de0-b369d7e71fb7",
+    "data": [
+      {
+        "text": "reconfigure",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540708833
+  }
+]

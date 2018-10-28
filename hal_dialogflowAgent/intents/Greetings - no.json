@@ -1,0 +1,59 @@
+{
+  "id": "ef7631b9-0687-4b54-9571-6cb5b134dba5",
+  "parentId": "d2d7a33a-e47c-4698-8dee-2ea262c62498",
+  "rootParentId": "d2d7a33a-e47c-4698-8dee-2ea262c62498",
+  "name": "Greetings - no",
+  "auto": true,
+  "contexts": [
+    "Greetings-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "Greetings.Greetings-no",
+      "affectedContexts": [
+        {
+          "name": "Greetings-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "Okay... I think you need some inspiration, could it be?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Yes",
+                      "callback_data": "createart"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "No, thanks",
+                      "callback_data": "no"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540596704,
+  "fallbackIntent": false,
+  "events": []
+}

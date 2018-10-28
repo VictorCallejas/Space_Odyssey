@@ -1,0 +1,129 @@
+[
+  {
+    "value": "spacex",
+    "synonyms": [
+      "spacex",
+      "space x",
+      "space X",
+      "Space X"
+    ]
+  },
+  {
+    "value": "nasa",
+    "synonyms": [
+      "nasa",
+      "NASA",
+      "Nasa,",
+      "national aeronautics and space administration"
+    ]
+  },
+  {
+    "value": "esa",
+    "synonyms": [
+      "esa",
+      "ESA",
+      "Esa",
+      "european space agency"
+    ]
+  },
+  {
+    "value": "isro",
+    "synonyms": [
+      "isro",
+      "indian space agency",
+      "Isro, ISRO"
+    ]
+  },
+  {
+    "value": "roscosmos",
+    "synonyms": [
+      "roscosmos",
+      "Roscosmos",
+      "ROSCOSMOS",
+      "russian space agency"
+    ]
+  },
+  {
+    "value": "jaxa",
+    "synonyms": [
+      "jaxa",
+      "Jaxa",
+      "JAXA",
+      "japanese space agency"
+    ]
+  },
+  {
+    "value": "cnsa",
+    "synonyms": [
+      "cnsa",
+      "Cnsa",
+      "CNSA",
+      "chinese space agency"
+    ]
+  },
+  {
+    "value": "blue origin",
+    "synonyms": [
+      "blue origin",
+      "blueorigin",
+      "Blue origin",
+      "Blue Origin"
+    ]
+  },
+  {
+    "value": "ariane",
+    "synonyms": [
+      "ariane",
+      "arianespace",
+      "Ariane",
+      "Ariane group",
+      "Ariane space"
+    ]
+  },
+  {
+    "value": "ula",
+    "synonyms": [
+      "ula",
+      "ULA",
+      "Ula",
+      "United launch alliance",
+      "united launch alliance"
+    ]
+  },
+  {
+    "value": "virgin",
+    "synonyms": [
+      "virgin",
+      "Virgin",
+      "Virgin orbit",
+      "Virgin galactic"
+    ]
+  },
+  {
+    "value": "pld",
+    "synonyms": [
+      "pld",
+      "PLD",
+      "Pld space",
+      "pldspace"
+    ]
+  },
+  {
+    "value": "rocket lab",
+    "synonyms": [
+      "rocket lab",
+      "Rocket lab",
+      "Rocketlab"
+    ]
+  },
+  {
+    "value": "cnes",
+    "synonyms": [
+      "cnes",
+      "french space agency",
+      "CNES",
+      "Cnes",
+      "Centre national d\u0027etudes spatiales"
+    ]
+  }
+]

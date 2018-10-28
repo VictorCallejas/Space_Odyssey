@@ -1,0 +1,170 @@
+[
+  {
+    "id": "e81610dc-532f-44c9-be85-c7ca99b1d4c1",
+    "data": [
+      {
+        "text": "When is ",
+        "userDefined": false
+      },
+      {
+        "text": "JAXA",
+        "alias": "agency",
+        "meta": "@agencies",
+        "userDefined": false
+      },
+      {
+        "text": "\u0027s next launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540755671
+  },
+  {
+    "id": "e2c691e1-509f-4316-a371-9388f0411162",
+    "data": [
+      {
+        "text": "when is the next ",
+        "userDefined": false
+      },
+      {
+        "text": "blue origin",
+        "alias": "agency",
+        "meta": "@agencies",
+        "userDefined": false
+      },
+      {
+        "text": " launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540731826
+  },
+  {
+    "id": "99838050-f6f3-4fe1-b218-009682cd8c64",
+    "data": [
+      {
+        "text": "next ",
+        "userDefined": false
+      },
+      {
+        "text": "Nasa",
+        "alias": "agency",
+        "meta": "@agencies",
+        "userDefined": false
+      },
+      {
+        "text": " launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540731826
+  },
+  {
+    "id": "a78566b7-5dc0-49d3-901e-72223f050153",
+    "data": [
+      {
+        "text": "next launch ",
+        "userDefined": false
+      },
+      {
+        "text": "spacex",
+        "alias": "agency",
+        "meta": "@agencies",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540730630
+  },
+  {
+    "id": "d627c524-8f16-4103-9add-e4f17c11a141",
+    "data": [
+      {
+        "text": "next rocket launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "dec48236-ad18-4e5b-a426-ba72b6f4a7c2",
+    "data": [
+      {
+        "text": "next liftoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "cce8649c-81e6-4873-8315-137815c9cf1c",
+    "data": [
+      {
+        "text": "next launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "6bfb03a7-b1da-4c3a-a223-58d3ec852c2c",
+    "data": [
+      {
+        "text": "where is the next launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "4427d6e1-a9df-48db-9ebf-0cadbfeb57e9",
+    "data": [
+      {
+        "text": "where can i watch the next launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "1d64e3b2-f80b-4fe3-97ae-be10abe5a560",
+    "data": [
+      {
+        "text": "when is the next liftoff",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  },
+  {
+    "id": "c12df9bd-d9ca-4d6c-a4ad-fffd4f3d5859",
+    "data": [
+      {
+        "text": "when is the next launch",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540602076
+  }
+]

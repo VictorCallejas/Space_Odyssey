@@ -1,0 +1,42 @@
+[
+  {
+    "value": "5min",
+    "synonyms": [
+      "5min",
+      "5 minutes before",
+      "five minutes before"
+    ]
+  },
+  {
+    "value": "15min",
+    "synonyms": [
+      "15min",
+      "15 minutes before",
+      "fifteen minutes before"
+    ]
+  },
+  {
+    "value": "1hour",
+    "synonyms": [
+      "1hour",
+      "1 hour before",
+      "an hour before"
+    ]
+  },
+  {
+    "value": "1day",
+    "synonyms": [
+      "1day",
+      "the day before",
+      "one day before",
+      "one day"
+    ]
+  },
+  {
+    "value": "never",
+    "synonyms": [
+      "never",
+      "Never"
+    ]
+  }
+]

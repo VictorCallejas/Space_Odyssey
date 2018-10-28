@@ -1,0 +1,80 @@
+{
+  "id": "c2fb6c6d-a27f-469e-b7f8-98e5d737d86c",
+  "name": "setupname",
+  "auto": true,
+  "contexts": [
+    "setupname"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "updateName",
+      "affectedContexts": [
+        {
+          "name": "setuplevel",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "42aee8b5-fbbd-47dc-b37a-22f60fdc6b84",
+          "required": true,
+          "dataType": "@name",
+          "name": "name",
+          "value": "$name",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Sorry, can you repeat your name?"
+            }
+          ],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "Nice to meet you $name ! What\u0027s your level in space issues?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Rookie",
+                      "callback_data": "rookie"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Amateur",
+                      "callback_data": "amateur"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Expert",
+                      "callback_data": "expert"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540601470,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "id": "10839870-cb4c-4924-ad6e-732dd2da2e3e",
+    "data": [
+      {
+        "text": "how do you do",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540597070
+  },
+  {
+    "id": "4751e95c-357b-4c22-9e13-5ed5462555b6",
+    "data": [
+      {
+        "text": "how are you",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540597070
+  },
+  {
+    "id": "546d6f91-a8ed-44c0-8268-a4deaacb9069",
+    "data": [
+      {
+        "text": "how do you do?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540597070
+  },
+  {
+    "id": "d40ab25a-a46b-45f4-82ac-42738d15714c",
+    "data": [
+      {
+        "text": "how are you?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1540597070
+  }
+]

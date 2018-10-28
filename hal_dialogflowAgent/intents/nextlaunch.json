@@ -1,0 +1,39 @@
+{
+  "id": "71a2d37d-d3a9-4f8b-8a0a-d0c9e59c4601",
+  "name": "nextlaunch",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "101cc317-4f95-48b4-8943-f9985d63586c",
+          "required": false,
+          "dataType": "@agencies",
+          "name": "agency",
+          "value": "$agency",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540755671,
+  "fallbackIntent": false,
+  "events": []
+}

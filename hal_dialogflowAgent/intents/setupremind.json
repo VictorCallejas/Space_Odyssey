@@ -1,0 +1,42 @@
+{
+  "id": "1573959a-c209-402b-9b7f-e730398e692e",
+  "name": "setupremind",
+  "auto": true,
+  "contexts": [
+    "setupremind"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "updateRemind",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "440b5a00-942e-418a-8995-ccbc72cdd5a2",
+          "required": false,
+          "dataType": "@reminder",
+          "name": "reminder",
+          "value": "$reminder",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Great! You will receive launch notifications $reminder before. You have finished your configuration! You can ask me about next launches, agencies, companies or even inspiration."
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540757014,
+  "fallbackIntent": false,
+  "events": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "72dc6519-2e1e-4f6e-95b1-fa356f0490ac",
+  "name": "Default Welcome Intent (setup)",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "setuplevel",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 4,
+          "lang": "en",
+          "payload": {
+            "telegram": {
+              "text": "Hi, welcome! I\u0027m HAL, your space assistant. First, I need to ask you some questions to improve your experience. What\u0027s your level of knowledge about space?",
+              "reply_markup": {
+                "inline_keyboard": [
+                  [
+                    {
+                      "text": "Rookie",
+                      "callback_data": "rookie"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Amateur",
+                      "callback_data": "amateur"
+                    }
+                  ],
+                  [
+                    {
+                      "text": "Expert",
+                      "callback_data": "expert"
+                    }
+                  ]
+                ]
+              }
+            }
+          }
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540708833,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "TELEGRAM_WELCOME"
+    }
+  ]
+}

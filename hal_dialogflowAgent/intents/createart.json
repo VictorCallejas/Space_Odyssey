@@ -1,0 +1,35 @@
+{
+  "id": "df5bdef7-0ec8-482c-a749-2590623eb455",
+  "name": "createart",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 1,
+          "platform": "telegram",
+          "lang": "en",
+          "title": "A bit of inspiration",
+          "subtitle": "Hey! We are still developing this function. In the future you\u0027ll be able to send your own photos and we\u0027ll create something new getting inspiration from NASA\u0027s photo galleries.",
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/spaceapps-2e599.appspot.com/o/Arte.png?alt\u003dmedia\u0026token\u003d825a923b-e140-49c3-83cd-88e9c07c2f84",
+          "buttons": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "telegram": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1540660652,
+  "fallbackIntent": false,
+  "events": []
+}
