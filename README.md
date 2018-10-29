@@ -16,15 +16,15 @@
     
 ## Summary
 
-Hal is an assistant that **informs** and **notifies** you about rocket launches, help you with your **space questions** and also capable of **creating art**!
+Hal is an assistant that **informs** and **notifies** you about rocket launches. It can also help you with your **space questions** and even **create art!**
 
-If there is something he does not know, do not worry, he **learn** fast.
+If he doesn't know something, don't worry,  **he learns** fast. 
 
-With a **self-scalable architecture**, that allows him to scale up when there is a lot of demand so he can provide the best service and scale down when not so he can save resources and infrastructure cost, this is essential in any **global** and **sustainable** solution.
+It's designed with a **self-scalable architecture**. This architecture allows him to scale up when there is a lot of demand, so the service isn't compromised. But also lets him scale down when the demand decreases so he can save resources and infrastructure cost. This is essential in any **global and sustainable solution**.
 
 ## Hal
 
-In the last decades many companies have appeared in the space sector and the space launches have multiplied so to be aware of all the launches is not easy, hence the concept of space odyssey.
+In the last decades, many companies have appeared in the space industry and the space launches have multiplied, so it is not easy to be aware of all lift offs, hence the concept of space odyssey.
 
 Currently there are many proposals such as websites or apps, but we wanted a solution that would encourage the user to see the launch, that was not the user who has to be pending and searching, instead something that propose and facilitate, so is more comfortable and saves time for the user.
 
@@ -118,3 +118,6 @@ Should you have any further questions, do not hesitate contact us:
 
 viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes     
 juarobgo@etsid.upv.es        +34 618 50 85 70          www.linkedin.com/in/JuanRRoblesGomez
+
+
+<img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/photo_2018-10-23_09-43-33.jpg?alt=media&token=31005a15-229a-45d8-bcd1-80ef14476190" width="800"/>
