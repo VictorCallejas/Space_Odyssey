@@ -110,7 +110,7 @@ Hal is already available on Telegram, very soon it will be **multi platform**, b
 
 We have disable notifications to improve them, but in the configuration process your chat_id and preferences are stored in users database. So when we activate them, they will be automatically ready for you. We are currently developing the API for the deepart feature and we are importing and integrating an astronauts database. Soon you will be able to ask for any astronaut in history and get information about him.
 
-We strongly believe in this project because his almost **null infrastructure and maintenance costs**. When developers create new features, they are **available globally, for everyone in a sustainable way**.
+We strongly believe in this project because his almost **null infrastructure and maintenance costs**. When developers create new features, they are **globally available, for everyone, in a sustainable way**.
 
 #### Contact
 
