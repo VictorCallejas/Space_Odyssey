@@ -26,7 +26,7 @@ It's designed with a **self-scalable architecture**. This architecture allows hi
 
 In the last decades, many companies have appeared in the space industry and the space launches have multiplied, so it is not easy to be aware of all lift offs, hence the concept of space odyssey.
 
-Currently there are many proposals such as websites or apps, but we wanted a solution that could encourage the user to see the launch. In this platform, the user does not have to be focusing or searching for information. Instead of that, Hal makes everything easier, so it is more comfortable and it is a saving-time tool.
+Currently there are many proposals such as websites or apps, but we wanted a solution that could encourage the user to see the launch. With Hal, the user does not have to be focusing or searching for information. Instead of that, Hal makes everything easier, so it is more comfortable and it is a saving-time tool.
 
 The reference to HAL9000 also has a meaning. Hal evolves in the same way as in the movie. First, it seems only a chatbot, then you will think that it is an assistant and finally you will not know where to fit it.
 
@@ -81,7 +81,7 @@ Let's see some examples:
 
 #### Architecture
 
-While we were designing Hal, we tried to make him available on a **global scale** and **sustainable in the future**.
+While we were designing Hal, we always kept in mind to make him available on a **global scale** and **sustainable in the future**.
 
 Architecture scheme:
 
@@ -114,10 +114,11 @@ We strongly believe in this project because his almost **null infrastructure and
 
 #### Contact
 
-If you have any question, you can contact us:
+Should you have any further questions, please do not hesitate to contact us:
 
 viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes     
 juarobgo@etsid.upv.es        +34 618 50 85 70          www.linkedin.com/in/JuanRRoblesGomez
 
 
 <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/photo_2018-10-23_09-43-33.jpg?alt=media&token=31005a15-229a-45d8-bcd1-80ef14476190" width="800"/>
+<p align="center">Thanks to the Valencia Space Apps Organization for this great experience</p>
