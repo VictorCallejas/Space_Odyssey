@@ -26,9 +26,9 @@ It's designed with a **self-scalable architecture**. This architecture allows hi
 
 In the last decades, many companies have appeared in the space industry and the space launches have multiplied, so it is not easy to be aware of all lift offs, hence the concept of space odyssey.
 
-Currently there are many proposals such as websites or apps, but we wanted a solution that would encourage the user to see the launch, that was not the user who has to be pending and searching, instead something that propose and facilitate, so is more comfortable and saves time for the user.
+Currently there are many proposals such as websites or apps, but we wanted a solution that could encourage the user to see the launch. In this platform, the user does not have to be focusing or searching for information. Instead of that, Hal makes everything easier, so it is more comfortable and it is a saving-time tool.
 
-The reference to HAL9000 also has a meaning, as the evolution in the movie, at first it seems only a chatbot, then you will think that it is an assistant and finally you will not know where to fit it.
+The reference to HAL9000 also has a meaning. Hal evolves in the same way as in the movie. First, it seems only a chatbot, then you will think that it is an assistant and finally you will not know where to fit it.
 
 We neither, so we call him Hal.
 
@@ -36,18 +36,18 @@ We neither, so we call him Hal.
 
 Let's see first its chatbot function.
 
-The first time we talk with him we will make a brief questionnaire to better fit our preferences. This configuration can be changed whenever you want, simply by saying "change configuration". This is one of the best features of Hal. He does not need to say a specific phrase, but offers us an **interaction as if it was a person**, we could say "set settings" and also **understand us**.
+In our first conversation with Hal, we will fill a brief questionnaire to stablish our preferences. This configuration can be changed whenever we want, simply by typing "change configuration". This is one of the best features of Hal. We do not have to type a specific sentence, it interacts with us as if it was human. We could say "set settings" and it would understand us too.
 
-In case he does not understand you, because you have used very different words, Hal will respond "I did not understand that" (Fallback intent) and the developers will see this phrase, so he can be trained and the next time he will understand you.
+In case he does not understand you, because you have used very different words, Hal will respond "I did not understand that" (Fallback intent). The developers will see this sentence, so he can be trained and the next time he will understand you.
 
-Users can ask questions for which Hal has not been programmed to respond, in this case the developers will also see it, and they can program to respond that question. Let's give an example:
+Users can ask questions for which Hal has not been programmed to respond. In this case the developers will also see it, and they can program to respond that question. Let's give an example:
 
 User: What astronaut has been more time in space?
 Hal: I'm sorry I did not understand you, but do not worry I learn fast!
 
-Here the developers can decide to teach him answer that question and send a notification to the user with the answer. When any other user asks this question again he will know how to answer it.
+Here the developers can teach him to answer that question and send a notification to the user with the answer. When any other user asks this question again, he will know how to answer it.
 
-The more people interacts with Hal, the better he recognizes the sentences and when new questions are asked he has the opportunity to learn so that he can respond to anyone later.
+The more people interacts with Hal, the better he recognizes the sentences. When new questions are asked, he has the opportunity to learn. Hal can answer any question that he have learned in any conversation.
 
 Let see some examples of what you can ask Hal now:
 
@@ -60,15 +60,15 @@ We invite you to try these features.
 
 #### Assistant
 
-But why we say that Hal is more than a chatbot, that it is an assistant?
+But Hal is much more than a chatbot. He is an assistant.
 
-Well, we can ask questions to Hal. But also **he will be waiting for us**. Without talking to him. He will be able to send us notifications before a launch occurs for example, these notifications can be configured.
+We can ask questions to Hal, but **he will not be waiting for us**. We can configure launch notifications, so he will remind us the next launch some minutes before.
 
 #### Inspire
 
-The creators are enthusiasts of space exploration, so we decided to add the challenge of 'Artify the earth', **creating art and to inspire others**. We are many who love the pictures of the libraries of NASA, so much that we put them on wallpaper. Well, better if those photos had a **personal touch**.
+The creators are enthusiasts of space exploration, so we decided to add the challenge 'Artify the earth'. Hal can **create art to inspire others**. Many people love the pictures of NASA's libraries and many people use them as wallpaper. Well, Hal can add a **personal touch** to this pictures.
 
-For this, we will tell Hal that we need inspiration or that he create for us a piece of art. He will ask us for a photo and a space style, which has to do with photos from the libraries of NASA.
+To use this function, we can ask for inspiration. He will request a picture and a space style. Space styles are photos from the libraries of NASA.
 
 Let's see some examples:
 
@@ -81,40 +81,40 @@ Let's see some examples:
 
 #### Architecture
 
-At the time of designing Hal, we have always kept in mind that it must be capable of being implemented at a **global scale** and **be sustainable in the future**.
+While we were designing Hal, we tried to make him available on a **global scale** and **sustainable in the future**.
 
 Architecture scheme:
 
 <img src="https://firebasestorage.googleapis.com/v0/b/hal-kkxfot.appspot.com/o/arquitectura.png?alt=media&token=2ed21ac7-6e87-4f40-8dec-178d59c9b250" width="1000"/>  
 
 
-The core of the chatbot is in Dialogflow. We have chosen this platform for these reasons mainly:
+Dialogflow is the chatbot's core. We have chosen this platform for these reasons:
 * Easy deploy on **more than 9 platforms**
 * Support for **multiple languages**
 * Simple integration with other Google services
 * **Effective NPL** (Natural Language Processing) recognition of intents and parameters
 
-But as we have seen, not everything is question and answer, all the data in real time, updates, deepart... it is thanks to the backend.
+As we have seen, not everything is question and answer. All the data in real time, updates, deepart... it is thanks to the backend.
 
-The fulfillment of the chatbot is the part that is responsible for collecting data in real time, as location of the ISS or access the databases deployed in the new Firebase service, Firestore. This code is written in Javascript and running on Node js, in several servers offered by Google Compuete Engine that have an elastic load balancer to distribute the requests. These servers are in a horizontal **autoscaling** group, this means that automatically, if the number of requests increase it will create automatically new instances to always offer a **quality service without interruptions**. If the number of requests decreases, so does the number of instances to **save resources** and **infrastructure cost**.
+The chatbot's fulfillment is responsible for collecting data in real time. For example, the location of the ISS or the databases deployed in the new Firebase service, Firestore. This code is written in Javascript and running on Node js, in several servers offered by Google Compuete Engine that have an elastic load balancer to distribute the requests. These servers are in a horizontal **autoscaling** group. This means, if the number of requests increase, it will create automatically new instances to offer a **quality service without interruptions**. If the number of requests decreases, so does the number of instances to **save resources** and **infrastructure cost**.
 
-Also in Google Compute Engine is a single non-scalable instance responsible for the processing of images with Deepart techniques (Deeplearning), for it has an Nvidia Tesla K80 graphics.
+Also in Google Compute Engine is a single non-scalable instance responsible for the processing of images with Deepart techniques (Deeplearning). It has an Nvidia Tesla K80 graphics to perform this function.
 
 #### Future
 
-As we have seen the architecture allows the application to be prepared for a **global deployment in a sustainable way**.
+As we have seen, the architecture allows the application to be prepared for a **global deployment in a sustainable way**.
 
-With Dialogflow Hal can understand **multiple languages**. Currently implemented in English, it will soon be implemented in Spanish and German and in the future it will be implemented in Chinese and Russian.
+With Dialogflow Hal can understand **multiple languages**. Currently implemented in English, it will soon be implemented in Spanish and German. In the future it will be implemented in Chinese and Russian.
 
-Hal is already available on Telegram, very soon it will be **multi platform**, being available on Facebook messenger, and in the future it will be implemented on Slack, Google assistant, Line, Alexa and Cortana.
+Hal is already available on Telegram, very soon it will be **multi platform**, being available on Facebook messenger. In future it will be implemented on Slack, Google assistant, Line, Alexa and Cortana.
 
-We have disable notifications to make some improves, but in the configuration process your chat_id and preferences are stored in users database so when we activate them soon again, they will be automatically ready for you. We are currently developing the API for the deepart feature and we are importing and integrating an astronauts database so soon you can ask for any astronaut in history and get information about him.
+We have disable notifications to improve them, but in the configuration process your chat_id and preferences are stored in users database. So when we activate them, they will be automatically ready for you. We are currently developing the API for the deepart feature and we are importing and integrating an astronauts database. Soon you will be able to ask for any astronaut in history and get information about him.
 
-We strongly believe in this project because his almost **null infrastructure and maintenance costs**. Only developers are needed to develop the new features, and later they are **available globally, for everyone in a sustainable way**.
+We strongly believe in this project because his almost **null infrastructure and maintenance costs**. When developers create new features, they are **available globally, for everyone in a sustainable way**.
 
 #### Contact
 
-Should you have any further questions, do not hesitate contact us:
+If you have any question, you can contact us:
 
 viccalfu@inf.upv.es          +34 645 56 64 61          www.linkedin.com/in/victor-callejas-fuentes     
 juarobgo@etsid.upv.es        +34 618 50 85 70          www.linkedin.com/in/JuanRRoblesGomez
